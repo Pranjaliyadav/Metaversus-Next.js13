@@ -1,0 +1,34 @@
+app folder - most important u=folder in next.js 13
+we exported all components in page.js
+
+constants has all the extracted data that we going to use in design
+
+global.css has all the tailwind styles
+index.js - most common used styled extracted
+
+utils have
+framer motion motion.js like having special functions for slide in, text variants
+
+head.js lets chnge title of site and favicon
+layout.js have special font directly extracted from design
+
+>npm install
+>npm run dev
+
+no need to write const serversidebox
+in next.js 13 all components inside the app directory are react server compoents by default
+including special files and colocated components. this allows us to 
+automaticly adopt server components with no extra work and achieve great performance out of the box
+this way apps are much faster cacheable predictable in size
+
+
+but sometimes you wont be able to use it on client side 
+like no hooks and all
+so to use that just put 'use client' directive at top of file before any imports
+and then continue using react hooks whatever way u like
+
+but only use it when u really need to use client side hooks like
+useEFfect or useState
+otherwise just use server components
+
+
