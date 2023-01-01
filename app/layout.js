@@ -11,3 +11,10 @@ const RootLayout = ({ children }) => (
 );
 
 export default RootLayout;
+
+/*
+RootLayout takes children prop and returns jsx code
+frst link is to improve performance for site
+second link to included to apply some styling to the page
+
+*/

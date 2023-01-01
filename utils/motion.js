@@ -21,6 +21,10 @@ export const navVariants = {
     },
   },
 };
+/*
+these are some framer-motion objects to specify styles and transitions for an animation
+betweentwo state: a hidden state and a show state
+*/
 
 export const slideIn = (direction, type, delay, duration) => ({
   hidden: {
