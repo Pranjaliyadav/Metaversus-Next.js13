@@ -1,3 +1,16 @@
+## Metaversus - Fully Responsive landing page design for a Metaverse gaming site built around theme of Virtual Reality
+
+Demo - https://idyllic-starship-c4df87.netlify.app/
+
+Tech Used - Next.js13, TailwindCSS, Framer Motion
+
+What i learned - 
+
+Next.js 13 Application structure, fundamental CSS properties to master flex using tailwindCSS, soft and pleasant animations, complex gradients though Framer motion,
+how to make site responsive for almost all devices, how to deploy extremely fast servers, react.js project architecture, clean code best practices.
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
